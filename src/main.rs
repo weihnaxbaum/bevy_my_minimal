@@ -1,5 +1,5 @@
 #![cfg_attr(bevy_lint, feature(register_tool), register_tool(bevy))]
-#![cfg_attr(not(feature = "console"), windows_subsystem = "window")]
+#![cfg_attr(not(feature = "console"), windows_subsystem = "windows")]
 
 use bevy::prelude::*;
 
